@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	height: 700px;
+	background-color: #000000;
+	background-image: url(df.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	font-family: cursive;
+
+}
+
+.login{
+	background-color: honeydew;
+	width: 350px;
+	text-align: center;
+	padding: 50px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.login h2{
+	margin : 0 0 28px; 
+	width: 100%; 
+	margin-bottom: 30px;
+	background-color: powderblue;
+	ba
+}
+
+.login .input-group{
+	position: relative;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.login .input-group input{
+	height: 50px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 15px;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.login .input-group span{
+	position: absolute;
+	top: 12px;
+	left: 10px;
+	padding: 0px;
+	text-transform: capitalize;
+	background-color: #fff;
+	transition: 0.5s;
+	color: rgba(128, 128, 128); 
+}
+
+.login .input-group input:focus ~ span,
+.login .input-group input:valid ~ span{
+	top: -12px;
+	left: 28px;
+	font-size: 12px;
+	background-color: pink;
+	padding: 2px 4px;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+.login .input-group input[type="submit"]{
+	background-color: greenyellow;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	width: 50%;
+	transition: 0.5s;
+	font-family: cursive;
+	
+}
+
+.login .input-group input[type="submit"]:hover{
+	width: 100%;
+	background-color: rgba(255, 0, 0, 0.5);
+	color: #fff;
+}
